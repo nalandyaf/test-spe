@@ -39,39 +39,39 @@ class SeeMoreViewModel(movieUsecases: IMoviesUsecases, schedulerProvider: Schedu
     }
 
     private fun getDataUpcoming(page: Int?) {
-        try {
-            compositeDisposable.add(baseUsecase!!.getUpcomingMovies(page!!)
-                    .subscribeOn(Schedulers.io())
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe(this::onSuccessGetData, this::onError))
-        } catch (e: MapperException) {
-            e.printStackTrace()
-            onError(e)
-        }
+//        try {
+//            compositeDisposable.add(baseUsecase!!.getUpcomingMovies(page!!)
+//                    .subscribeOn(Schedulers.io())
+//                    .observeOn(AndroidSchedulers.mainThread())
+//                    .subscribe(this::onSuccessGetData, this::onError))
+//        } catch (e: MapperException) {
+//            e.printStackTrace()
+//            onError(e)
+//        }
     }
 
     private fun getDataTopRated(page: Int?) {
-        try {
-            compositeDisposable.add(baseUsecase!!.getTopRatedMovies(page!!)
-                    .subscribeOn(Schedulers.io())
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe(this::onSuccessGetData, this::onError))
-        } catch (e: MapperException) {
-            e.printStackTrace()
-            onError(e)
-        }
+//        try {
+//            compositeDisposable.add(baseUsecase!!.getTopRatedMovies(page!!)
+//                    .subscribeOn(Schedulers.io())
+//                    .observeOn(AndroidSchedulers.mainThread())
+//                    .subscribe(this::onSuccessGetData, this::onError))
+//        } catch (e: MapperException) {
+//            e.printStackTrace()
+//            onError(e)
+//        }
     }
 
     private fun getDataPopular(page: Int?) {
-        try {
-            compositeDisposable.add(baseUsecase!!.getPopularMovies(page!!)
-                    .subscribeOn(Schedulers.io())
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe(this::onSuccessGetData, this::onError))
-        } catch (e: MapperException) {
-            e.printStackTrace()
-            onError(e)
-        }
+//        try {
+//            compositeDisposable.add(baseUsecase!!.getPopularMovies(page!!)
+//                    .subscribeOn(Schedulers.io())
+//                    .observeOn(AndroidSchedulers.mainThread())
+//                    .subscribe(this::onSuccessGetData, this::onError))
+//        } catch (e: MapperException) {
+//            e.printStackTrace()
+//            onError(e)
+//        }
     }
 
     fun onSuccessGetData(moviesList: MoviesList) {
