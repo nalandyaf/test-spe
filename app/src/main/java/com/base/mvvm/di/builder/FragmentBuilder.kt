@@ -1,5 +1,6 @@
 package com.base.mvvm.di.builder
 
+import com.base.mvvm.ui.about.AboutFragment
 import com.base.mvvm.ui.genre.GenreFragment
 import com.base.mvvm.ui.movies.MoviesFragment
 import dagger.Module
@@ -13,6 +14,9 @@ internal abstract class FragmentBuilder {
 
     @ContributesAndroidInjector(modules = [])
     abstract fun bindGenre(): GenreFragment?
+
+    @ContributesAndroidInjector(modules = [])
+    abstract fun bindAbout(): AboutFragment?
 
 
 }

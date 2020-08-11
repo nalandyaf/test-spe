@@ -12,6 +12,7 @@ import com.base.mvvm.R
 import com.base.mvvm.ViewModelProviderFactory
 import com.base.mvvm.databinding.ActivityHomeBinding
 import com.base.mvvm.domain.models.ContentTab
+import com.base.mvvm.ui.about.AboutFragment
 import com.base.mvvm.ui.base.BaseActivity
 import com.base.mvvm.ui.genre.GenreFragment
 import com.base.mvvm.ui.movies.MoviesFragment
@@ -69,6 +70,7 @@ class HomeActivity : BaseActivity<ActivityHomeBinding, HomeViewModel>(), HomeNav
         contentTab = java.util.ArrayList()
         contentTab!!.add(makeTab(MoviesFragment(), "Movies", R.drawable.icon_movies))
         contentTab!!.add(makeTab(GenreFragment(), "Genre", R.drawable.icon_genre))
+        contentTab!!.add(makeTab(AboutFragment(), "About", R.drawable.icon_about))
         return contentTab!!
     }
 
