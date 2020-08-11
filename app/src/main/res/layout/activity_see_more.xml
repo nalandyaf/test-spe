@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.base.mvvm.ui.base.BaseViewModel" />
+
+        <variable
+            name="activity"
+            type="androidx.appcompat.app.AppCompatActivity" />
+
+        <variable
+            name="viewModel"
+            type="com.base.mvvm.ui.movies.seeMore.SeeMoreViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_home">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            app:setAdapter="@{viewModel.getAdapter()}"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"
+            tools:listitem="@layout/adapter_see_more" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginStart="-5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="@{() -> activity.onBackPressed()}"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/left_arrow"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

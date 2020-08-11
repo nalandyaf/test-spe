@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.registration.RegistrationActivity">
+
+    <data>
+
+        <import type="com.base.mvvm.ui.base.BaseViewModel" />
+
+        <variable
+            name="viewModel"
+            type="com.base.mvvm.ui.registration.RegistrationViewModel" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.email}"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.username}"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:text="@{viewModel.password}"/>
+            <include
+                layout="@layout/layout_button"
+                app:viewModel="@{(BaseViewModel)viewModel}"/>
+        </LinearLayout>
+        <include
+            layout="@layout/layout_progress"
+            app:viewModel="@{(BaseViewModel)viewModel}"/>
+    </RelativeLayout>
+
+</layout>

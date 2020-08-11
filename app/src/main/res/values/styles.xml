@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- APP THEME -->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Regular</item>
+        <item name="android:textSize">@dimen/font_size_regular</item>
+        <item name="colorControlNormal">@color/color_white_80</item>
+        <item name="colorControlActivated">@color/color_white</item>
+        <item name="colorControlHighlight">@color/color_white</item>
+    </style>
+
+    <!--TOOLBAR-->
+
+    <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextStyle.Heading">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/font_size_big</item>
+    </style>
+
+    <!--MAIN LAYOUT-->
+
+    <style name="MainLayoutStyle">
+        <item name="android:layout_marginLeft">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginTop">@dimen/BU5</item>
+
+    </style>
+
+    <!--PROGRESS BAR-->
+
+    <style name="ProgressbarLayout">
+        <item name="android:background">@color/colorPrimary60</item>
+    </style>
+
+    <!--TEXT STYLE-->
+
+    <style name="AppTab.TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyle.Heading" parent="TextStyle">
+        <item name="android:textSize">@dimen/font_size_big</item>
+        <item name="android:textAppearance">@style/TextAppearance.Text.Bold</item>
+    </style>
+
+    <style name="TextStyle" parent="TextAppearance.Text.Regular">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/font_size_regular</item>
+    </style>
+
+    <style name="EditTextHintStyle" parent="TextAppearance.Text.Regular" >
+        <item name="android:textColor">@color/color_white_60</item>
+        <item name="android:color">@color/color_white_60</item>
+        <item name="android:textColorHint">@color/color_white_60</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+        <item name="hintTextAppearance">@style/EditTextHintStyle</item>
+        <item name="android:layout_marginBottom">@dimen/BU2</item>
+        <item name="android:textColorHint">@color/color_white_60</item>
+        <item name="android:textColor">@color/color_white_60</item>
+        <item name="android:textSize">@dimen/font_size_big</item>
+    </style>
+
+    <style name="TextAppearance.Text.Regular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/poppins/Poppins-Regular.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Italic" parent="android:TextAppearance">
+        <item name="fontPath">fonts/poppins/Poppins-Italic.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Bold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/poppins/Poppins-Bold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Text.Bold.Italic" parent="android:TextAppearance">
+        <item name="fontPath">fonts/poppins/Poppins-Medium.ttf</item>
+    </style>
+
+    <!--BUTTON STYLE-->
+
+    <style name="ActionButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:paddingTop">@dimen/BU1Half</item>
+        <item name="android:paddingBottom">@dimen/BU1Half</item>
+        <item name="android:layout_marginBottom">@dimen/BU</item>
+        <item name="android:textColor">@color/color_black_effective</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/poppins/Poppins-Bold.ttf</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+</resources>

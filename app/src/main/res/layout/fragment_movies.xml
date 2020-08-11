@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="com.base.mvvm.ui.base.BaseViewModel" />
+
+        <variable
+            name="viewModel"
+            type="com.base.mvvm.ui.movies.MoviesViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_home"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_home"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/padding_slarge"
+                        android:text="POPULAR MOVIE"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/morePopular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:padding="@dimen/padding_slarge"
+                        android:onClick="@{() -> viewModel.seeMorePopular()}"
+                        android:text="See More"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_s" />
+                </LinearLayout>
+
+                <com.base.mvvm.common.SnappingRecyclerView
+                    android:id="@+id/popularMovieList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:shimmer_demo_angle="20"
+                    app:setAdapter="@{viewModel.getAdapterPopular()}"
+                    app:shimmer_demo_child_count="10"
+                    app:shimmer_demo_layout="@layout/adapter_movie_popular"
+                    app:shimmer_demo_layout_manager_type="linear_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/padding_slarge"
+                        android:text="TOP RATED"
+                        android:textColor="@android:color/white" />
+
+
+                    <TextView
+                        android:id="@+id/moreTop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:padding="@dimen/padding_slarge"
+                        android:onClick="@{() -> viewModel.seeMoreTopRated()}"
+                        android:text="See More"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_s" />
+                </LinearLayout>
+
+                <com.mikelau.views.shimmer.ShimmerRecyclerViewX
+                    android:id="@+id/topRatedList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:setAdapter="@{viewModel.getAdapterTopRated()}"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:shimmer_demo_angle="20"
+                    app:shimmer_demo_child_count="3"
+                    app:shimmer_demo_layout="@layout/adapter_movie_top_rated"
+                    app:shimmer_demo_layout_manager_type="linear_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_med"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/padding_slarge"
+                        android:text="UPCOMING"
+                        android:textColor="@android:color/white" />
+
+
+                    <TextView
+                        android:id="@+id/moreUpcoming"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:padding="@dimen/padding_slarge"
+                        android:onClick="@{() -> viewModel.seeMoreUpcoming()}"
+                        android:text="See More"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_s" />
+                </LinearLayout>
+
+                <com.mikelau.views.shimmer.ShimmerRecyclerViewX
+                    android:id="@+id/upcomingList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:setAdapter="@{viewModel.getAdapterUpcoming()}"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:shimmer_demo_angle="20"
+                    app:shimmer_demo_child_count="5"
+                    app:shimmer_demo_layout="@layout/adapter_movie_upcoming"
+                    app:shimmer_demo_layout_manager_type="linear_horizontal" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</layout>

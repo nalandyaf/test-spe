@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.PierfrancescoSoffritti:AndroidYouTubePlayer:4.1.5@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8d476780f885914f326ad3cbc633b6f/jetified-AndroidYouTubePlayer-4.1.5/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8d476780f885914f326ad3cbc633b6f/jetified-AndroidYouTubePlayer-4.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8d476780f885914f326ad3cbc633b6f/jetified-AndroidYouTubePlayer-4.1.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.PierfrancescoSoffritti/AndroidYouTubePlayer/4.1.5/9b6612da98abc6866e453706cd28560747fdee5c/AndroidYouTubePlayer-4.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.PierfrancescoSoffritti/AndroidYouTubePlayer/4.1.5/7e601a8b6249bc4d94ca5b69b4fee3a142f81eaa/AndroidYouTubePlayer-4.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

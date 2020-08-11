@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.base.mvvm.ui.base.BaseViewModel" />
+
+        <variable
+            name="viewModel"
+            type="com.base.mvvm.ui.genre.GenreViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_home"
+        android:orientation="vertical">
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:smsp_arrowColor="@color/colorPrimaryDark"
+            app:smsp_floatingLabelColor="@color/colorPrimaryDark"
+            app:smsp_floatingLabelText="Category"
+            app:smsp_hint="Category"
+            app:smsp_hintColor="#388E3C"
+            app:smsp_isSearchable="true"
+            app:smsp_itemColor="@color/colorPrimaryDark"
+            app:smsp_multilineError="false"
+            app:smsp_selectedItemListColor="@color/colorPrimaryDark"
+            app:smsp_underlineColor="@color/colorPrimaryDark" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:setAdapter="@{viewModel.getAdapter()}"
+            app:spanCount="2"
+            tools:listitem="@layout/adapter_see_more" />
+
+
+    </LinearLayout>
+
+</layout>

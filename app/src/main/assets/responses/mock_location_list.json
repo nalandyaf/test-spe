@@ -1,0 +1,353 @@
+[
+  {
+    "_id": "5b955c9661cb387624f5cf9c",
+    "name": "Labuan Bajo",
+    "coordinates": "undefined",
+    "createdAt": "2018-09-09T17:47:02.068Z",
+    "updatedAt": "2019-02-18T17:20:04.484Z",
+    "__v": 0,
+    "id": "5b955c9661cb387624f5cf9c",
+    "featuredPackages": {
+      "displayed": true,
+      "_id": "5c6ae8de6b9325543dd61723",
+      "googleMapsPlace": {},
+      "name": "Swimming",
+      "createdAt": "2019-02-18T17:18:22.808Z",
+      "updatedAt": "2019-02-18T17:18:22.824Z",
+      "__v": 0,
+      "location": "5b955c9661cb387624f5cf9c",
+      "id": "5c6ae8de6b9325543dd61723",
+      "tours": null,
+      "extendedmedias": null
+    },
+    "contains": [],
+    "tours": [
+      {
+        "language": "id-ID",
+        "status": "pending",
+        "currency": "IDR",
+        "duration_unit": "hours",
+        "_id": "5b5c71fb4ffdc957909be117",
+        "title": "Labuan Bajo Fun",
+        "createdAt": "2018-07-28T13:39:07.294Z",
+        "updatedAt": "2019-02-08T08:24:10.992Z",
+        "__v": 0,
+        "id": "5b5c71fb4ffdc957909be117",
+        "tourAgency": "5b5c73dbe980873278e58ac3",
+        "categories": [],
+        "tags": [
+          "marinetourism"
+        ],
+        "endDate": "2018-10-18T00:00:00.000Z",
+        "startDate": "2018-10-11T00:00:00.000Z",
+        "price": 2000000,
+        "terms": "Bayar",
+        "days": "4",
+        "description": "**Menyelam**",
+        "short_description": "Menyelam",
+        "featuredPackages": "5b94f99361cb387624f5cf9b",
+        "max_pax": 15,
+        "min_pax": 5,
+        "location": "5b955c9661cb387624f5cf9c",
+        "special_requests": [
+          {
+            "name": "Sewa alat selam",
+            "description": "Mohon cantumkan ukuran yang biasa Anda gunakan",
+            "price": "200000"
+          }
+        ],
+        "coordinates": [
+          -8.453848400000002,
+          119.87284210000007
+        ],
+        "googleMapsPlace": {
+          "address_components": [
+            {
+              "long_name": "Labuan Bajo",
+              "short_name": "Labuan Bajo",
+              "types": [
+                "administrative_area_level_4",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Komodo",
+              "short_name": "Komodo",
+              "types": [
+                "administrative_area_level_3",
+                "political"
+              ]
+            },
+            {
+              "long_name": "West Manggarai Regency",
+              "short_name": "West Manggarai Regency",
+              "types": [
+                "administrative_area_level_2",
+                "political"
+              ]
+            },
+            {
+              "long_name": "East Nusa Tenggara",
+              "short_name": "East Nusa Tenggara",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Indonesia",
+              "short_name": "ID",
+              "types": [
+                "country",
+                "political"
+              ]
+            }
+          ],
+          "adr_address": "<span class=\"extended-address\">Labuan Bajo, Komodo</span>, <span class=\"locality\">West Manggarai Regency</span>, <span class=\"region\">East Nusa Tenggara</span>, <span class=\"country-name\">Indonesia</span>",
+          "formatted_address": "Labuan Bajo, Komodo, West Manggarai Regency, East Nusa Tenggara, Indonesia",
+          "geometry": {
+            "location": {
+              "lat": -8.453848400000002,
+              "lng": 119.87284210000007
+            },
+            "viewport": {
+              "south": -8.498889,
+              "west": 119.83327489999999,
+              "north": -8.399899099999999,
+              "east": 119.89517990000002
+            }
+          },
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+          "id": "36212d7d0af637b4d6fe21385f4580cc589f0166",
+          "name": "Labuan Bajo",
+          "photos": [
+            {
+              "height": 2268,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/115659624861786444542/photos\">Jose Antonio Alamo Rodríguez</a>"
+              ],
+              "width": 4032
+            },
+            {
+              "height": 1836,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/111216762794280246354/photos\">Carlos Aguilar</a>"
+              ],
+              "width": 3264
+            },
+            {
+              "height": 2322,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113091622396573720047/photos\">tatang sendjaya</a>"
+              ],
+              "width": 4128
+            },
+            {
+              "height": 3024,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/107234658772342219644/photos\">Manuel adela</a>"
+              ],
+              "width": 4032
+            },
+            {
+              "height": 2448,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/102897115121275631443/photos\">Yos Lamawuran</a>"
+              ],
+              "width": 3264
+            },
+            {
+              "height": 2448,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/115907582271009612216/photos\">Windra Kusgara</a>"
+              ],
+              "width": 3264
+            },
+            {
+              "height": 2268,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/106744815859588806235/photos\">Татьяна Жучкова</a>"
+              ],
+              "width": 4032
+            },
+            {
+              "height": 3456,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/114575232851959626334/photos\">henkie averesch</a>"
+              ],
+              "width": 4608
+            },
+            {
+              "height": 3376,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/106656964984419827568/photos\">Max Schädel</a>"
+              ],
+              "width": 6000
+            },
+            {
+              "height": 3024,
+              "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/104464506776520846708/photos\">Charles du Roy</a>"
+              ],
+              "width": 4032
+            }
+          ],
+          "place_id": "ChIJQdZ-1KZotC0RjW5qPDMk9Yc",
+          "reference": "ChIJQdZ-1KZotC0RjW5qPDMk9Yc",
+          "scope": "GOOGLE",
+          "types": [
+            "administrative_area_level_4",
+            "political"
+          ],
+          "url": "https://maps.google.com/?q=Labuan+Bajo,+Komodo,+West+Manggarai+Regency,+East+Nusa+Tenggara,+Indonesia&ftid=0x2db468a6d47ed641:0x87f524333c6a6e8d",
+          "utc_offset": 480,
+          "html_attributions": []
+        },
+        "duration": 6,
+        "price_list": {
+          "items": [
+            {
+              "name": "Jalan-jalan",
+              "capacity": "10",
+              "unit": "orang",
+              "price": "100000"
+            }
+          ],
+          "items_margin": "10",
+          "tour_guides": [],
+          "tour_guides_discount": 0
+        },
+        "images": null,
+        "tourTranslations": null,
+        "bookings": null,
+        "extendedmedias": []
+      },
+      {
+        "language": "id-ID",
+        "status": "active",
+        "currency": "IDR",
+        "duration_unit": "days",
+        "_id": "5b9b4685a5fd186f1877facb",
+        "title": "Saumlaki Diving Tour",
+        "tags": [
+          "marinetourism"
+        ],
+        "short_description": "Ingin bermain bersama kuda tapi di laut?",
+        "description": "Pada hari minggu kuturut ayah ke kota, naik delman istimewa kududuk di muka. Kududuk samping pak kusir ke pinggiran pulau, nyemplung ke air biru main bersama kuda, laut.",
+        "days": "5",
+        "terms": "Advance diving certification",
+        "price": 10000000,
+        "min_pax": 1,
+        "max_pax": 10,
+        "startDate": "2018-09-15T00:00:00.000Z",
+        "endDate": "2018-09-25T00:00:00.000Z",
+        "createdAt": "2018-09-14T05:26:29.983Z",
+        "updatedAt": "2018-11-08T10:24:49.453Z",
+        "__v": 0,
+        "location": "5b955c9661cb387624f5cf9c",
+        "tourAgency": "5b5c73dbe980873278e58ac3",
+        "images": null,
+        "tourTranslations": null,
+        "bookings": null,
+        "extendedmedias": [],
+        "id": "5b9b4685a5fd186f1877facb"
+      },
+      {
+        "language": "id-ID",
+        "status": "active",
+        "currency": "IDR",
+        "duration_unit": "days",
+        "_id": "5b9cb8eaa5fd186f1877fadf",
+        "title": "Delicious campfire at secret beach - Labuhan Bajo",
+        "tags": [
+          "culinary",
+          "camping"
+        ],
+        "short_description": "Nikmati santap malam makanan lokal di pinggir pantai ditemani api unggun dan hiburan musik tradisional.",
+        "days": "1",
+        "terms": "Harga termasuk (price include): \n[Diisi komponen apa saja detail mis. ]\nFood, music, hotel pick up.\n\nCancellation:\nFlexible (100% refund H-4) / No Cancel \n",
+        "price": 200000,
+        "min_pax": 2,
+        "max_pax": 10,
+        "startDate": "2018-10-15T00:00:00.000Z",
+        "endDate": "2018-12-15T00:00:00.000Z",
+        "description": "Deskripsi lengkap santap malam makanan lokal di pinggir pantai.",
+        "createdAt": "2018-09-15T07:46:50.237Z",
+        "updatedAt": "2018-09-15T13:27:20.646Z",
+        "__v": 0,
+        "location": "5b955c9661cb387624f5cf9c",
+        "tourAgency": "5b5c73dbe980873278e58ac3",
+        "images": null,
+        "tourTranslations": null,
+        "bookings": null,
+        "extendedmedias": [],
+        "id": "5b9cb8eaa5fd186f1877fadf"
+      },
+      {
+        "language": "id-ID",
+        "status": "active",
+        "currency": "IDR",
+        "duration_unit": "days",
+        "_id": "5ba0f8af1b4c4f4c9c155581",
+        "title": "Libur Suka-Suka",
+        "tags": [
+          "marinetourism",
+          "ecotourism"
+        ],
+        "short_description": "Lorem ipsum dolor sit amet.",
+        "description": "Lorem ipsum dolor sit amet.",
+        "days": "3",
+        "terms": "Lorem ipsum dolor sit amet.",
+        "price": 500000,
+        "min_pax": 1,
+        "max_pax": 20,
+        "startDate": "2018-09-18T00:00:00.000Z",
+        "endDate": "2019-09-18T00:00:00.000Z",
+        "createdAt": "2018-09-18T13:07:59.965Z",
+        "updatedAt": "2018-10-02T08:41:50.763Z",
+        "__v": 0,
+        "location": "5b955c9661cb387624f5cf9c",
+        "tourAgency": "5b5c73dbe980873278e58ac3",
+        "images": null,
+        "tourTranslations": null,
+        "bookings": null,
+        "extendedmedias": [
+          "5bb32b9f4dd786453823e6fa"
+        ],
+        "id": "5ba0f8af1b4c4f4c9c155581"
+      },
+      {
+        "language": "id-ID",
+        "status": "active",
+        "currency": "IDR",
+        "duration_unit": "days",
+        "_id": "5ba4f3911b4c4f4c9c15558a",
+        "title": "Tws 21 sept 2018",
+        "tags": [
+          "marinetourism",
+          "agrotourism",
+          "ecotourism"
+        ],
+        "short_description": "Tes progress 21 sept 2018",
+        "days": "1",
+        "terms": "Cancellation:\nFlexible\nNo Cancel",
+        "price": 21092018,
+        "min_pax": 1,
+        "max_pax": 5,
+        "startDate": "2018-09-23T00:00:00.000Z",
+        "endDate": "2018-09-26T00:00:00.000Z",
+        "description": "Tes",
+        "createdAt": "2018-09-21T13:35:13.741Z",
+        "updatedAt": "2018-10-10T00:08:41.866Z",
+        "__v": 0,
+        "location": "5b955c9661cb387624f5cf9c",
+        "tourAgency": "5b5c73dbe980873278e58ac3",
+        "images": null,
+        "tourTranslations": null,
+        "bookings": null,
+        "extendedmedias": [],
+        "id": "5ba4f3911b4c4f4c9c15558a"
+      }
+    ]
+  }
+]

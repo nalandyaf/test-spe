@@ -1,0 +1,86 @@
+
+<resources>
+    <dimen name="BUHalf">6dp</dimen>
+    <dimen name="BUSixth">2dp</dimen>
+    <dimen name="BUQuarter">3dp</dimen>
+    <dimen name="BUOneThird">4dp</dimen>
+    <dimen name="BUThreeFourths">9dp</dimen>
+    <dimen name="BUTwoThirds">8dp</dimen>
+    <dimen name="BU">12dp</dimen>
+    <dimen name="BU1PlusOneFourths">15dp</dimen>
+    <dimen name="BU1PlusOneThirds">16dp</dimen>
+    <dimen name="BU1Half">18dp</dimen>
+    <dimen name="BU1PlusTwoThirds">20dp</dimen>
+    <dimen name="BU2">24dp</dimen>
+    <dimen name="BU2Half">30dp</dimen>
+    <dimen name="BU2plusFourSixths">32dp</dimen>
+    <dimen name="BU3">36dp</dimen>
+    <dimen name="BU3Half">42dp</dimen>
+    <dimen name="BU4">48dp</dimen>
+    <dimen name="BU4Half">54dp</dimen>
+    <dimen name="BU5">60dp</dimen>
+    <dimen name="BU5Half">66dp</dimen>
+    <dimen name="BU6">72dp</dimen>
+    <dimen name="BU6Half">78dp</dimen>
+    <dimen name="BU7">84dp</dimen>
+    <dimen name="BU7Plus1dp">85dp</dimen>
+    <dimen name="BU7Half">90dp</dimen>
+    <dimen name="BU8">96dp</dimen>
+    <dimen name="BU8Half">102dp</dimen>
+    <dimen name="BU9">108dp</dimen>
+    <dimen name="BU9Half">114dp</dimen>
+    <dimen name="BU10">120dp</dimen>
+    <dimen name="BU10plus1dp">121dp</dimen>
+    <dimen name="BU10Half">126dp</dimen>
+    <dimen name="BU11">132dp</dimen>
+    <dimen name="BU11Half">138dp</dimen>
+    <dimen name="BU12">144dp</dimen>
+    <dimen name="BU12Half">150dp</dimen>
+    <dimen name="BU13">156dp</dimen>
+    <dimen name="BU13Half">162dp</dimen>
+    <dimen name="BU14">168dp</dimen>
+    <dimen name="BU15">180dp</dimen>
+    <dimen name="BU16">192dp</dimen>
+    <dimen name="BU17">204dp</dimen>
+    <dimen name="BU18">216dp</dimen>
+    <dimen name="BU19Half">234dp</dimen>
+    <dimen name="BU20">240dp</dimen>
+    <dimen name="BU20Half">246dp</dimen>
+    <dimen name="BU21">252dp</dimen>
+    <dimen name="BU21Half">258dp</dimen>
+    <dimen name="BU22">264dp</dimen>
+    <dimen name="BU23">276dp</dimen>
+    <dimen name="BU24">288dp</dimen>
+    <dimen name="BU25">300dp</dimen>
+    <dimen name="BU26">312dp</dimen>
+    <dimen name="BU27">324dp</dimen>
+    <dimen name="BU28">336dp</dimen>
+    <dimen name="BU29">348dp</dimen>
+    <dimen name="BU30">360dp</dimen>
+    <dimen name="BU31">372dp</dimen>
+    <dimen name="BU31Half">378dp</dimen>
+    <dimen name="BU32">384dp</dimen>
+    <dimen name="BU34">408dp</dimen>
+    <dimen name="BU34Half">414dp</dimen>
+    <dimen name="BU34plus2dp">410dp</dimen>
+    <dimen name="BU34plus10dp">418dp</dimen>
+    <dimen name="BU35">420dp</dimen>
+    <dimen name="BU35plus14dp">434dp</dimen>
+    <dimen name="BU36">432dp</dimen>
+    <dimen name="BU41">492dp</dimen>
+
+    <dimen name="activity_horizontal_margin">@dimen/BU1PlusOneThirds</dimen>
+    <dimen name="activity_vertical_margin">@dimen/BU1PlusOneThirds</dimen>
+
+
+    <dimen name="font_size_small">13sp</dimen>
+    <dimen name="font_size_regular">18sp</dimen>
+    <dimen name="font_size_big">22sp</dimen>
+    <dimen name="font_size_button">16sp</dimen>
+    <dimen name="padding_slarge">20dp</dimen>
+    <dimen name="text_s">12sp</dimen>
+    <dimen name="margin_med">14dp</dimen>
+    <dimen name="size_210dp">210dp</dimen>
+    <dimen name="size_32dp">32dp</dimen>
+
+</resources>
